@@ -16,9 +16,10 @@ How to use:
 
 1. Download and install all libraries required
 1. Download the code
-2. Open nodemcu_alexa_milight.ino in the Arduino editor
+2. Open ``nodemcu_alexa_milight.ino`` in the Arduino editor
 3. Change the Wi-Fi settings
 4. Define switches and callbacks
 5. Flash
 6. Use serial monitor to pair with Mi-Light
+7. Discover it with Alexa
 7. Enjoy

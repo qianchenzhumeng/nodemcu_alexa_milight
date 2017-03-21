@@ -1,3 +1,11 @@
+/**
+  ******************************************************************************
+  * file		nodemcu_alexa_milight.ino
+  * author		Mr.Y
+  * date		2017-3-21
+  * brief		Control milight by a nodemcu and a nRF24L01+ using Amazon Alexa.
+  ******************************************************************************
+**/
 #include <OpenMiLight.h>
 #include <SPI.h>
 #include <RF24.h>
@@ -13,7 +21,6 @@
 void officeLightOn();
 void officeLightOff();
 
-/* 烧录前更改内容 */
 const char* ssid = "****";
 const char* password = "****";
 
